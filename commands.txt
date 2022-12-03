@@ -1,0 +1,36 @@
+1 docker exec -it node-app sh
+   2 echo "# docker" >> README.md
+   3 git init
+   4 git add README.md
+   5 git commit -m "first commit"
+   6 git branch -M main
+   7 git remote add origin https://github.com/zverugin8/docker.git
+   8 git push -u origin main
+   9 ls
+  10 cd .\docker-compose-app\
+  11 docker-compose up
+  12 dicker ps
+  13 docker ps
+  14 docker ps -a
+  15 docker container prune
+  16 docker ps -a
+  17 docker-compose up -d
+  18 docker ps -a
+  19 docker ps
+  20 docker ps -a
+  21 docker-compose down
+  22 docker ps -a
+  23 docker-compose up -d --buld
+  24 docker-compose up -d --build
+  25 docker ps -a
+  26 docker logs c72fa940ce48
+
+    -- -----------
+   1 docke images
+   2 docker images
+   3 docker run -it --name node-app my-file-writer
+   4 docker ps -a
+   5 docker ps 0a
+   6 docker ps -a
+   7 docker container prune
+   8 docker ps -a
