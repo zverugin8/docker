@@ -30,7 +30,6 @@
    2 docker images
    3 docker run -it --name node-app my-file-writer
    4 docker ps -a
-   5 docker ps 0a
    6 docker ps -a
    7 docker container prune
    8 docker ps -a
