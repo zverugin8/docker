@@ -1,0 +1,6 @@
+chcon -Rt svirt_sandbox_file_t ./html/
+
+sudo setenforce 0
+getenforce
+
+https://stackoverflow.com/questions/24288616/permission-denied-on-accessing-host-directory-in-docker
